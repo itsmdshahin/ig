@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+} 
+.row{
+	background: #FAFAFA;
+}
+.row .col1{ 
+	display:inline-block;
+	padding:100px;
+} 
+.row .col2{
+	padding: 100px;
+	padding-top:-50px;
+	margin-top: -10px;
+	display:inline-block;
+	
+}
+.row .col2 .sec1{
+	width: 396px;
+	height:auto;
+	background:white;
+	border:1px solid #DBDBDB;
+	display: relative; 
+	
+}
+.row .col2 .sec1 .img1{
+	margin-left: 90px;
+	padding: 10px; 
+	//float: center;
+	
+}
+
+.row .col2 .sec1 .phone1{
+	margin-top: 40px;
+	margin-left: 8px;
+}
+.row .col2 .sec1 .pass1{
+	margin: 10px 10px 8px 10px;
+}
+.row .col2 .sec1 .phone{
+	width: 300px;
+	height: 40px;
+	margin-left: 40px; 
+	padding: 10px;
+	//text-align: center;
+	vertical-align:middle;
+	border: 1px solid #DBDBDB;
+ 
+}
+.row .col2 .sec1 .pass{
+	width: 300px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+	padding: 10px;
+	//text-align: center;
+	vertical-align:middle;
+	border: 1px solid #DBDBDB;
+ 
+}
+.row .col2 .sec1 .botom{
+	margin-left:8px;
+}
+.row .col2 .sec1 .botom1:hover{
+	background: #4267B2;
+}
+.row .col2 .sec1 .botom1{
+	width: 300px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+	padding: 5px 0;
+	text-align: center;
+	vertical-align:middle;
+	border: 1px solid #DBDBDB;
+	background:#B2DFFC;
+	color:white;
+}
+.dotline{
+	
+	text-align: center;
+	align-items: center;
+	border: 1px solid #dddfe2;
+	display: flex;
+	margin: 20px 16px; 
+}
+.loginfb{  
+	margin-left: 100px;
+	clear:both;
+}
+.sec1 .forgetpass a{
+	text-decoration:none;
+	color: black;	
+}
+.sec1 .forgetpass{
+	text-align:center; 
+	margin: 10px;
+	padding: 10px;
+}
+.sec1 .loginfb .loginfbforget a{
+	text-decoration: none;
+	color: #4267b2;
+}	
+.sec1 .loginfb .loginfbicon .loginfbforget{ 
+	float:right;
+	margin: 10px; 
+
+} 
+.sec1 .loginfb .loginfbicon .img11{ 
+	float:left;
+	margin-right: 10px;
+	width:15px;
+	height:15px;
+}
+
+.sec2 h5 a{
+	text-decoration: none;
+}
+.sec2 h5{
+	text-align: center;
+	
+}
+.sec2{ 
+	margin: 10px 0;
+	padding: 10px 0;
+}
+.sec3{
+	 float: both; 
+}
+.sec3 .sec3img{
+	float: left;
+	padding-left: 50px;
+}
+.sec3 h4{
+	text-align: center;
+}
